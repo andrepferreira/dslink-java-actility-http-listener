@@ -1,20 +1,13 @@
-# template-dslink-java
+# Actility LoRaWAN Network Server dslink for Cisco Kinetic EFM
+This link is an implementation of an http listener compatible with receiving sensor data from the Actility NS. 
 
-Template for Java-based DSLinks. Use it!
+## Usage
 
-## Building and running distributions
+* Install the dslink from the EFM Manager interface as usual
+* Start the dslink
+* Configure the listening port by adding a socket number to the dslink
+* Set the logging level if required
 
-1. Run `./gradlew build distZip`
-2. Navigate into `build/distributions`
-3. Extract the distribution tarball/zip
-4. Navigate into the extracted distribution
-5. Run `./bin/template-dslink-java -b http://localhost:8080/conn`
+* Configure the Actility NS destination to be the Kinetic EFM Server IP:port
 
-Note: `http://localhost:8080` is the url to the DSA broker that needs to have been installed prior.
-
-## Creating your own link
-
-1. Change the group and project name in Gradle
-2. Change the dslink.json file to match
-3. Refactor to fit your domain
-4. Hack away!
+Inbound data will appear on the dslink node and can be used in a dataflow. Sensor data is passed through as raw JSON and can be decoded with a JSON Parser widget
