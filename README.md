@@ -14,3 +14,8 @@ Inbound data will appear on the dslink node and can be used in a dataflow. Senso
 
 ## Note
 The repo contains both the source and the binaries. The source is in the directory **dslink-java** and the binaries (for Linux) are in the **binaries** directory. 
+
+## Credits and references
+
+1. dslink-java-template was used as the starting point
+2. All code written by Simon Ball (Britehouse South Africa, a division of NTT Inc)
