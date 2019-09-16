@@ -20,3 +20,5 @@ The repo contains both the source and the binaries. The source is in the directo
 
 1. dslink-java-template was used as the starting point
 2. All code written by Simon Ball (Britehouse South Africa, a division of NTT Inc)
+
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/andrepferreira/dslink-java-actility-http-listener)
