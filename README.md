@@ -1,5 +1,6 @@
 # Actility LoRaWAN Network Server dslink for Cisco Kinetic EFM
-This link is an implementation of an http listener compatible with receiving sensor data from the Actility NS. 
+This link is an implementation of an http listener compatible with receiving sensor data from the Actility LoRaWAN Network Server. The Actility NS can deliver sensor data to a number of destination types, the simplest of which is a http destination. This is useful for testing and proof of concept deployments. 
+This dslink implements a simple http listener that can be specified in the Actility configuration as the sensor data destination. The sensors data (json) will then be available in Cisco EFM for use in data flows etc.
 
 ## Usage
 
